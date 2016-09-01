@@ -12,6 +12,7 @@ $(".video-file").on('click', function(e) {
   playFile(filename + '.mp4');
 });
 function playFile(name) {
+  $('body').off();
   $('.buttons').fadeOut(250,function() {
     $('#video-player').fadeIn();
   });
@@ -19,5 +20,4 @@ function playFile(name) {
   video[0].src = name;
   video[0].load();
   video[0].play();
-  $('body').off();
 };

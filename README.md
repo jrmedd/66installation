@@ -14,7 +14,7 @@ _N.B. if the Windows machine you’re installing on doesn’t have an Internet c
 2. Drag and drop the ‘66installation’ folder to a memorable place (e.g. C:\Users\Public\)
 3. Inside this a three notable directories: ‘screen1’, ‘screen2’, and ‘screen3’ (which refer to ‘Boys of 66, ‘Tournament stories’, and ‘Behind the scenes’, respectively.
 4. Open the ‘index.html’ file of the relevant screen, and copy the address from the address bar to an empty Notepad document.
-5. In the same document, type in --chrome --kiosk --app="<address you copied earlier here>"
+5. In the same document, type in --chrome --kiosk --app="address you copied earlier goes in between these quotes"
 6. Next, open Task Scheduler (you can search for this in the Start menu)
 7. On the right-hand side, create a new task
 8. Under ‘Triggers’, create a new trigger to execute when the user logs on
